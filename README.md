@@ -4,6 +4,7 @@ The goal of the project is to examine dependence of bias-variance in different h
 
 3.1 Exploring Bias-Variance Trade-off Across 
 Hypothesis Classes:
+
 The goal of the project is to examine dependence of bias-variance in different hypothesis classes, such 
 as Decision Trees, K-Nearest Neighbour, Linear Regression, Polynomial Regression, and Kernel 
 Methods on complexity of the model. The experiment involves generating synthetic datasets and 
@@ -19,6 +20,7 @@ enhance model selection and optimization.
 
 
 3.2 Methodology
+
 The methodology adopts an experimental approach to delve into the intricacies of the bias-variance 
 trade-off within the context of,
 (1) K-Nearest Neighbour 
@@ -36,6 +38,7 @@ classes to observe how the bias and variance change. This can be tested by plott
 curves for each hypothesis class and analysing the results. We will utilize libraries such as NumPy or 
 scikit-learn to generate synthetic datasets using functions from the hypothesis class.
 Dataset Synthesis:
+
 For KNN the Dataset is created by taking random numbers for feature X1, and X2 between a range 
 for X and exponentiation of one variable and multiplication of the other added with some noise for Y. 
 1/k is chosen as a measure of complexity.
@@ -62,6 +65,7 @@ datasets, manipulate model complexity, and visualize the bias-variance trade-off
 comprehensive analysis of the problem at hand.
 
 3.3 Conclusion and Future Work
+
 In our study, we looked into how the complexity of a model affects its ability to balance 
 between bias and variance in predictive modelling. The bias-variance trade-off does depend 
 on the complexity of the model to some extent, but it's not the only factor. While model 
